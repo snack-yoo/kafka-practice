@@ -1,0 +1,13 @@
+#Wed Jul 06 07:59:15 KST 2022
+storeType=MongoDB
+groupId=io.naraway
+dbName=
+projectTemplate=CQRS
+dbHost=localhost
+projectStyle=DramaBackend
+dbPort=9999
+dbUsername=
+skipEvent=false
+projectBuild=Gradle
+createEmbed=false
+dbPassword=

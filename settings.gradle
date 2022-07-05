@@ -1,0 +1,5 @@
+rootProject.name = 'kafkapractice'
+include 'producer'
+include 'consumer'
+include 'event'
+
