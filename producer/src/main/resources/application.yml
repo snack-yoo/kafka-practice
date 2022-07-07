@@ -1,0 +1,23 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: http://localhost:9092
+  profiles:
+    active: plain-event
+
+server:
+  port: 8081
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: plain-event
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: cloud-event

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: consumer-app
+  kafka:
+    consumer:
+      bootstrap-servers: http://localhost:9092
+  profiles:
+    active: plain-event
+
+server:
+  port: 8080
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: plain-event
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: cloud-event
